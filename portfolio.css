@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("leaf.jpg");
+    /* background-color: black; */
+    width: 100%;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    /* border: 9px ridge red; */
+}
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+    /* border:2px ridge yellow; */
+}
+.logo{
+    color: rgb(255, 234, 0);
+    padding: 10px;
+    margin-top:12px;
+    text-decoration: dotted;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+.items{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    width: 400px;
+    height: 90px;
+    /* border: 2px solid goldenrod; */
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+ ul li{
+     margin-left: 30px;
+    margin-top: 27px;
+    font-size: 12px;
+ }
+ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    transition: 0.5s ease-in;
+}
+ .search{
+    position: relative;
+    width: 300px;
+    top: 10px;
+     display: flex;
+    padding: 5px;
+    left: 600px;
+}
+ 
+ input{
+    background: linear-gradient(180deg,rgb(238, 0, 0),rgb(255, 242, 0)); 
+    color:black;
+    padding: 6px;
+    font-style: bold;
+  }
+ button{
+  color:yellow;
+  background-color: black;
+    padding: 6px;
+    transition: 0.4s ease ;
+ }
+  
+ .content h3{
+    position: relative;
+    padding: 35px;
+    font-size: 35px;
+    margin: 5px;
+    float: left;
+    color: white;
+    text-transform:capitalize;
+    
+}
+ span{
+    color:gold
+ }
+ .content{
+    position: relative;
+ }
+ .content .par {
+    position:absolute ;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 80px;
+    padding-left: 10px;
+    padding:15px
+   
+ }
+  
+  .form{
+    position: relative;
+    background:linear-gradient(180deg,black,blue,black);
+    backdrop-filter: blur(50px);
+    width: 250px;
+    height: 290px;
+     border: 22px groove  rgb(1, 48, 1);
+     border-top-color: rgb(25, 25, 175);
+     border-left-color:black;
+     border-bottom-color:blue;
+    right:  280px;
+    top:100px;
+    border-radius: 16px;
+    color:yellow;
+    padding:10px;
+    left: 900px;
+}
+ 
+.form{
+    position: absolute;
+    top:200px;
+    
+}
+.fi{
+    position: absolute;
+    color: whitesmoke;
+    padding: 20px;
+    border-right-color: blue;
+    border-bottom-right-radius: 20px;
+    border-bottom-color:red ;
+    border-top: none;
+    top: 50px;
+    left: 20px;
+    background: transparent;
+}
+.si{
+    position: absolute;
+    color: whitesmoke;
+    padding: 20px;
+    border-right-color: blue;
+    border-bottom-right-radius: 20px;
+    border-bottom-color:red ;
+    border-top: none;
+    top: 120px;
+    left: 20px;
+    background: transparent;
+ 
+}
+ 
+.btn{
+    /* background-color: white; */
+    position: absolute;
+    left: 36x;
+    bottom:80px;
+    padding:8px;
+    display: flex;
+     width: 210px;
+    background :linear-gradient(red,white);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+    height: 40px;
+    }
+
+.btn a{
+    position: absolute;
+    color: rgb(125, 0, 249);
+    font-size: 20px;
+    transition: 0.5s ease-out;
+    text-decoration: none;
+    left: 80px;
+     
+    
+}
+.h2{
+    position: absolute;
+    border: 3px groove white;
+    left: 100px;
+    top: 0px;
+    padding: 5px;
+    background: transparent;
+   border-color: rgb(38, 0, 255);
+   border-bottom-right-radius: 10px;
+   border-bottom-color: rgb(255, 2, 2);
+   border-top: none;
+   
+
+}
+ input:focus{
+    outline: none;
+} 
+::placeholder{
+ color:aqua;
+}
+.sinup{
+    position: absolute;
+    bottom: 33px;
+    left: 50px;
+    
+}
+.sinup a{
+    color:aqua;
+    
+}
+.btn:hover{
+    background: linear-gradient(black,blue,red);
+     
+}
+button:hover{
+    background-color: coral;
+}
+ul li a:hover{
+    background-color: yellow;
+     color:black;
+}
+ 
+.parent{
+    position: relative;
+    border: 6px solid red;
+    height: 250px;
+    top: 500px;
+}
+.child{
+    position: absolute;
+    background-color: wheat;
+    color: black;
+    height: auto;
+    width: 150px;
+    bottom:0px;
+    left: 90px;
+}
